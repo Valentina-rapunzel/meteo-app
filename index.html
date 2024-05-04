@@ -4,52 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meteo App</title>
+    <!-- CSS  -->
     <link rel="stylesheet" href="src/style.css" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <h1>Welcome to my new weather app</h1>
     <h2>It's being coded at the moment</h2>
     <h3>It's coming out soon, be patient😉</h3>
 
-    <header>
-      <form>
-        <input
-          type="search"
-          placeholder="Enter a city..."
-          required
-          id="search-input"
-        />
-        <input type="submit" value="Search" id="search-button" />
-      </form>
-      <hr />
-    </header>
+    <div class="app-container">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            id="search-input"
+          />
+          <input type="submit" value="Search" id="search-button" />
+        </form>
+        <hr />
+      </header>
 
-    <main>
-      <h1>San Francisco</h1>
-      <p>
-        Saturday 00:33, scattered clouds
-        <br />
-        Humidity: 66%, Wind:3.13 km/h
-      </p>
-      <div>🌤️ 30°C</div>
-    </main>
+      <main>
+        <h1>San Francisco</h1>
+        <p>
+          Saturday 00:33, scattered clouds
+          <br />
+          Humidity: 66%, Wind:3.13 km/h
+        </p>
+        <div>🌤️ 30°C</div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Valentina-rapunzel" target="_blank"
-        >Valentina Rapunzel</a
-      >
-      , published on
-      <a href="https://github.com/Valentina-rapunzel/meteo-app" target="_blank"
-        >GitHub</a
-      >
-      and website hosted on
-      <a
-        href="https://meteo-app-valentina-rapunzel.netlify.app/"
-        target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Valentina-rapunzel" target="_blank"
+          >Valentina Rapunzel</a
+        >
+        , published on
+        <a
+          href="https://github.com/Valentina-rapunzel/meteo-app"
+          target="_blank"
+          >GitHub</a
+        >
+        and website hosted on
+        <a
+          href="https://meteo-app-valentina-rapunzel.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
+
     <script src="src/app.js"></script>
   </body>
 </html>

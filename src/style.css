@@ -1,0 +1,38 @@
+body {
+  background-color: #f0fbf4;
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  /* font-weight: 400;
+  font-style: normal; */
+}
+
+.app-container {
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 50px 30px;
+  border-radius: 30px;
+  box-shadow: 0 30px 50px rgba(208, 228, 251, 0.7);
+}
+/* .first-color { 
+	background: #8ef6e4; 
+}
+	
+.second-color { 
+	background: #9896f1; 
+}
+
+.third-color { 
+	background: #d59bf6; 
+}
+
+.fourth-color { 
+	background: #edb1f1; 
+} */
