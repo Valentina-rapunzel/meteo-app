@@ -21,6 +21,13 @@ body {
   /* font-weight: 400;
   font-style: normal; */
 }
+a {
+  color: #551a8b;
+}
+a:hover {
+  font-weight: bolder;
+  cursor: pointer;
+}
 .app-container {
   background: radial-gradient(
     328px at 2.9% 15%,
@@ -52,14 +59,14 @@ body {
   font-size: 14px;
 }
 .search-form-button {
-  background: radial-gradient(
+  /* background: radial-gradient(
     328px at 2.9% 15%,
     rgb(197, 225, 247) 0%,
     rgb(232, 233, 251) 25.8%,
     rgb(252, 239, 250) 50.8%,
     rgb(234, 251, 251) 77.6%,
     rgb(240, 251, 244) 100.7%
-  );
+  ); */
   border-color: #c5e2fb;
   border-radius: 5px;
   padding: 5px 10px;
@@ -67,13 +74,23 @@ body {
 }
 .search-form-button:hover {
   cursor: pointer;
+  font-weight: bold;
   background: radial-gradient(
     328px at 2.9% 15%,
-    rgb(252, 219, 246) 50.8%,
-    rgb(187, 223, 252) 0%,
+    rgb(233, 216, 248) 50.8%,
+    rgb(187, 223, 252) 25.8%,
     rgb(216, 218, 247) 25.8%,
     rgb(219, 248, 248) 77.6%,
     rgb(228, 251, 236) 100.7%
   );
 }
-
+.app-data {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 12px;
+  color: #774ba1;
+}
