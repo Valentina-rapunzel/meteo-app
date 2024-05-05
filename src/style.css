@@ -84,9 +84,42 @@ a:hover {
     rgb(228, 251, 236) 100.7%
   );
 }
+.line {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+main {
+  padding: 30px 0;
+}
 .app-data {
   display: flex;
   justify-content: space-between;
+}
+.app-city {
+  margin: 0;
+  font-size: 34px;
+  line-height: 44px;
+}
+.app-details {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  color: rgba(43, 35, 50, 0.7);
+}
+strong {
+  color: #774ba1;
+}
+.app-temperature {
+  display: flex;
+  font-size: 64px;
+}
+.app-temperature-value {
+  margin-top: 20px;
+  font-size: 64px;
+}
+.app-temperature-unit {
+  margin-top: 20px;
 }
 footer {
   text-align: center;
