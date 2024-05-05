@@ -41,6 +41,7 @@ a:hover {
   border-radius: 30px;
   box-shadow: 0 30px 50px rgba(208, 228, 251, 0.7);
 }
+
 .search-form-input {
   background: radial-gradient(
     328px at 2.9% 15%,
