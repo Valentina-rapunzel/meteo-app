@@ -112,14 +112,18 @@ strong {
 }
 .app-temperature {
   display: flex;
+}
+.app-icon {
+  margin-top: 20px;
   font-size: 64px;
 }
 .app-temperature-value {
-  margin-top: 20px;
-  font-size: 64px;
+  margin-top: 40px;
+  font-size: 80px;
 }
 .app-temperature-unit {
-  margin-top: 20px;
+  font-size: 64px;
+  margin-top: 40px;
 }
 footer {
   text-align: center;
