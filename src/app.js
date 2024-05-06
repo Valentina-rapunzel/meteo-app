@@ -1,6 +1,5 @@
 function refreshWeather(response) {
   let temperature = response.data.temperature.current;
-  console.log(temperature);
   let temperatureElement = document.querySelector("#app-temperature-value");
   temperatureElement.innerHTML = Math.round(temperature);
   let city = response.data.city;
@@ -8,7 +7,6 @@ function refreshWeather(response) {
   let location = `${city}, ${country}`;
 
   let cityElement = document.querySelector("#app-city");
-  console.log(cityElement);
   cityElement.innerHTML = location;
 }
 
@@ -22,10 +20,11 @@ function searchCity(city) {
 function showCity(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#search-form-input");
-  console.log(searchInput.value);
   searchCity(searchInput.value);
 }
 
 let searchForm = document.querySelector("#search-form");
 console.log(searchForm);
 searchForm.addEventListener("submit", showCity);
+
+searchCity("Zurich");
