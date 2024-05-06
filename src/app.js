@@ -80,9 +80,9 @@ searchForm.addEventListener("submit", showCity, showDate, showCurrentTime);
 
 // to display current time
 
-function showCurrentTime(Number) {
-  let hours = Number.getHours();
-  let minutes = Number.getMinutes();
+function showCurrentTime(number) {
+  let hours = number.getHours();
+  let minutes = number.getMinutes();
 
   if (minutes < 10) {
     minutes = `0${minutes}`;
