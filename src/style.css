@@ -100,10 +100,14 @@ main {
   font-weight: 600;
   color: rgba(45, 30, 59, 0.7);
 }
+span {
+  color: #b266b6;
+}
+
 strong.humidity,
 strong.wind {
-  color: #551a8b;
-  font-size: 20px;
+  color: #735193;
+  font-size: 16px;
   font-weight: 900;
 }
 .app-temperature {
@@ -128,5 +132,4 @@ footer {
   padding-top: 30px;
   font-size: 12px;
   color: #774ba1;
-  
 }
