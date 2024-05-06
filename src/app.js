@@ -5,6 +5,12 @@ function refreshWeather(response) {
   let city = response.data.city;
   let country = response.data.country;
   let location = `${city}, ${country}`;
+  let humidity = response.data.temperature.humidity;
+  let wind = response.data.wind.speed;
+  let humidityElement = document.querySelector("#humidity");
+  let windElement = document.querySelector("#wind");
+  humidityElement.innerHTML = `${humidity}%`;
+  windElement.innerHTML = `${wind}km/h`;
 
   let cityElement = document.querySelector("#app-city");
   cityElement.innerHTML = location;
