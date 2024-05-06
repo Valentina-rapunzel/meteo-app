@@ -34,7 +34,7 @@ function showCity(event) {
   searchCity(searchInput.value);
 }
 
-// to get todays date
+// to display todays date
 
 function showDate(now) {
   let days = [
@@ -77,8 +77,8 @@ dateElement.innerHTML = showDate(today);
 let searchForm = document.querySelector("#search-form");
 console.log(searchForm);
 searchForm.addEventListener("submit", showCity, showDate, showCurrentTime);
-// to show a default city
-searchCity("Zurich");
+
+// to display current time
 
 function showCurrentTime(Number) {
   let hours = Number.getHours();
@@ -97,3 +97,6 @@ function showCurrentTime(Number) {
 let currentTime = new Date();
 let timeElement = document.querySelector("#time");
 timeElement.innerHTML = showCurrentTime(currentTime);
+
+// to show a default city
+searchCity("Zurich");
