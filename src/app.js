@@ -11,6 +11,9 @@ function refreshWeather(response) {
   let windElement = document.querySelector("#wind");
   humidityElement.innerHTML = `${humidity}%`;
   windElement.innerHTML = `${wind}km/h`;
+  let description = response.data.condition.description;
+  let descriptionElement = document.querySelector("#description");
+  descriptionElement.innerHTML = description;
 
   let cityElement = document.querySelector("#app-city");
   cityElement.innerHTML = location;
