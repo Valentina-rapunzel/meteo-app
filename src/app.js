@@ -99,4 +99,4 @@ let timeElement = document.querySelector("#time");
 timeElement.innerHTML = showCurrentTime(currentTime);
 
 // to show a default city
-searchCity("Zurich");
+searchCity("Reethi Rah");
