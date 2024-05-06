@@ -96,7 +96,7 @@ main {
 }
 .app-details {
   font-size: 16px;
-  line-height: 26px;
+  line-height: 24px;
   font-weight: 600;
   color: rgba(45, 30, 59, 0.7);
 }
@@ -118,15 +118,23 @@ strong.wind {
   font-size: 64px;
 }
 .app-temperature-value {
-  margin-top: 40px;
+  margin-top: 60px;
   font-size: 80px;
   color: #170328;
 }
 .app-temperature-unit {
   font-size: 64px;
-  margin-top: 40px;
+  margin-top: 60px;
   color: #170328;
 }
+.image{
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+
+
+}
+
 footer {
   text-align: center;
   padding-top: 30px;

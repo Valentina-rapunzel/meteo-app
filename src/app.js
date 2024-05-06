@@ -19,6 +19,10 @@ function refreshWeather(response) {
   let description = response.data.condition.description;
   let descriptionElement = document.querySelector("#description");
   descriptionElement.innerHTML = description;
+
+  let iconElement = document.querySelector("#icon");
+  let icon = `<img src="${response.data.condition.icon_url}" class="image"/>`;
+  iconElement.innerHTML = `${icon}`;
 }
 
 // make an API call and change the interface
@@ -100,3 +104,5 @@ timeElement.innerHTML = showCurrentTime(currentTime);
 
 // to show a default city
 searchCity("Reethi Rah");
+
+// Inject an icon
