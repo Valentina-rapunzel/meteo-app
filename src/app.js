@@ -21,7 +21,7 @@ function refreshWeather(response) {
   descriptionElement.innerHTML = description;
 
   let iconElement = document.querySelector("#icon");
-  let icon = `<img src="${response.data.condition.icon_url}" class="image"/>`;
+  let icon = `<img src="${response.data.condition.icon_url}" class="icon"/>`;
   iconElement.innerHTML = `${icon}`;
 }
 
