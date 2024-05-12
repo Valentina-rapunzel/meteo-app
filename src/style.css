@@ -123,16 +123,14 @@ strong.wind {
   color: #170328;
 }
 .app-temperature-unit {
-  font-size: 64px;
-  margin-top: 60px;
+  font-size: 60px;
+  margin-top: 65px;
   color: #170328;
 }
-.icon{
+.icon {
   width: 150px;
   height: 150px;
   margin-top: 20px;
-
-
 }
 
 footer {
